@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "I'd like to rent the following:\n" +
         "📦 Product: " + name + "\n" +
         "💰 Price: " + price + "/month\n\n" +
-        "Please assist me with the rental process.";
+        "Please confirm availability and delivery cost to my area.";
 
       btn.href = "https://wa.me/" + PHONE + "?text=" + encodeURIComponent(message);
       btn.target = "_blank";
